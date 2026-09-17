@@ -1,0 +1,261 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyM8mw+0i5IEWZPYCBeG9YkQ",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/WirMuhSep06/Pemerograman-Dasar/blob/main/WIRDHA_WEEK_2\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "aYGyJfRKVA2N",
+        "outputId": "07305677-1e1a-4b72-c2e0-692b344694bb"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "18\n",
+            "6\n",
+            "Monocrystalline\n"
+          ]
+        }
+      ],
+      "source": [
+        "# Jawaban Latihan 1 - Membuat Variabel\n",
+        "\n",
+        "tegangan = 18\n",
+        "arus = 6\n",
+        "jenis_sel = \"Monocrystalline\"\n",
+        "\n",
+        "print(tegangan)\n",
+        "print(arus)\n",
+        "print(jenis_sel)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Jawaban Latihan 2 - Tipe primitif & type()\n",
+        "\n",
+        "resistor = 1000\n",
+        "kapasitor = 0.00005\n",
+        "komponen = \"Resistor\"\n",
+        "Tersedia = True\n",
+        "\n",
+        "print(resistor, type(resistor))\n",
+        "print(kapasitor, type(kapasitor))\n",
+        "print(aktif, type(Tersedia))\n",
+        "print(komponen, type(komponen))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 228
+        },
+        "id": "5str2kanzKv0",
+        "outputId": "3713c5af-828f-4002-e8d7-10d3e11a7e79"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1000 <class 'int'>\n",
+            "5e-05 <class 'float'>\n"
+          ]
+        },
+        {
+          "output_type": "error",
+          "ename": "NameError",
+          "evalue": "name 'aktif' is not defined",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+            "\u001b[0;32m/tmp/ipykernel_661/131038779.py\u001b[0m in \u001b[0;36m<cell line: 0>\u001b[0;34m()\u001b[0m\n\u001b[1;32m      8\u001b[0m \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mresistor\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mtype\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mresistor\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      9\u001b[0m \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mkapasitor\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mtype\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mkapasitor\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 10\u001b[0;31m \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0maktif\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mtype\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mTersedia\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     11\u001b[0m \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mkomponen\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mtype\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mkomponen\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;31mNameError\u001b[0m: name 'aktif' is not defined"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Jawaban Latihan 3 - Memilih tipe yang tepat\n",
+        "\n",
+        "nama_unit = \"PLTS Nunukan\"\n",
+        "jumlah_panel = 240\n",
+        "tegangan_keluaran = 48.5\n",
+        "sedang_beroperasi = True\n",
+        "\n",
+        "print(nama_unit, type(nama_unit))\n",
+        "print(jumlah_panel, type(jumlah_panel))\n",
+        "print(tegangan_keluaran, type(tegangan_keluaran))\n",
+        "print(sedang_beroperasi, type(sedang_beroperasi))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "xVUhS6Q1z9DM",
+        "outputId": "9ab55616-a2e3-45e1-847b-9c178664c7f5"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "PLTS Nunukan <class 'str'>\n",
+            "240 <class 'int'>\n",
+            "48.5 <class 'float'>\n",
+            "True <class 'bool'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Jawaban Latihan 4 -List\n",
+        "\n",
+        "tegangan_harian = [217.5, 219.0, 220.3, 218.7, 221.1, 216.9]\n",
+        "\n",
+        "# (a) Pembacaan pertama dan terakhir\n",
+        "print(\"Data pertama:\", tegangan_harian[0])\n",
+        "print(\"Data terakhir:\", tegangan_harian[5])\n",
+        "\n",
+        "# (b) Menambahkan pembacaan baru\n",
+        "tegangan_harian.append(222.0)\n",
+        "\n",
+        "# (c) jumlah total data\n",
+        "print(\"Jumlah data:\", len(tegangan_harian))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "LPEtmM4z0ri4",
+        "outputId": "ddd32832-791c-4d65-9717-b83e4cec0ddc"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Data pertama: 217.5\n",
+            "Data terakhir: 216.9\n",
+            "Jumlah data: 7\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Jawaban Latihan 5 - Dictionary\n",
+        "\n",
+        "motor_listrik = {\"nama\": \"Motor Induksi Industri\",\n",
+        "    \"daya_kW\": 8,\n",
+        "    \"tegangan_V\": 380,\n",
+        "    \"rpm\": 1450}\n",
+        "\n",
+        "motor_listrik [\"rpm\"] = 1500\n",
+        "\n",
+        "print(\"Daya motor:\", motor[\"daya_kW\"])\n",
+        "print(motor)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "7RbiUIKH1U1D",
+        "outputId": "25ca66bc-7ed7-4cee-cc51-b99eac604ad3"
+      },
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Daya motor: 8\n",
+            "{'nama': 'Motor Induksi Industri', 'daya_kW': 8, 'tegangan_V': 380, 'rpm': 1500}\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Jawaban Latihan 6 - Gabungan\n",
+        "pembangkit = [\n",
+        "    {\"nama\": \"Unit-1\", \"kapasitas_MW\": 100, \"status\": \"operasi\"},\n",
+        "    {\"nama\": \"Unit-2\", \"kapasitas_MW\": 150, \"status\": \"operasi\"},\n",
+        "    {\"nama\": \"Unit-3\", \"kapasitas_MW\": 80, \"status\": \"pemeliharaan\"},\n",
+        "]\n",
+        "\n",
+        "\n",
+        "print(\"Nama unit kedua:\", pembangkit[1][\"nama\"])\n",
+        "\n",
+        "\n",
+        "pembangkit[0][\"status\"] = \"pemeliharaan\"\n",
+        "\n",
+        "\n",
+        "pembangkit.append({\n",
+        "    \"nama\": \"Unit-4\",\n",
+        "    \"kapasitas_MW\": 120,\n",
+        "    \"status\": \"operasi\"\n",
+        "})\n",
+        "\n",
+        "\n",
+        "print(pembangkit)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "-_e4JIIdWTdg",
+        "outputId": "be628a2f-2479-4d33-c680-7fff23080c5c"
+      },
+      "execution_count": 17,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Nama unit kedua: Unit-2\n",
+            "[{'nama': 'Unit-1', 'kapasitas_MW': 100, 'status': 'pemeliharaan'}, {'nama': 'Unit-2', 'kapasitas_MW': 150, 'status': 'operasi'}, {'nama': 'Unit-3', 'kapasitas_MW': 80, 'status': 'pemeliharaan'}, {'nama': 'Unit-4', 'kapasitas_MW': 120, 'status': 'operasi'}]\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
