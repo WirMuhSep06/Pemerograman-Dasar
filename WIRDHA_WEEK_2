@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyM8mw+0i5IEWZPYCBeG9YkQ",
+      "authorship_tag": "ABX9TyPMzwCP0ARYJ9wROghfIvQ7",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -28,13 +28,13 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": 20,
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
         "id": "aYGyJfRKVA2N",
-        "outputId": "07305677-1e1a-4b72-c2e0-692b344694bb"
+        "outputId": "058e47db-a11f-473f-8fad-c2f1d4ffa4d5"
       },
       "outputs": [
         {
@@ -71,36 +71,26 @@
         "\n",
         "print(resistor, type(resistor))\n",
         "print(kapasitor, type(kapasitor))\n",
-        "print(aktif, type(Tersedia))\n",
+        "print(Tersedia, type(Tersedia))\n",
         "print(komponen, type(komponen))"
       ],
       "metadata": {
         "colab": {
-          "base_uri": "https://localhost:8080/",
-          "height": 228
+          "base_uri": "https://localhost:8080/"
         },
         "id": "5str2kanzKv0",
-        "outputId": "3713c5af-828f-4002-e8d7-10d3e11a7e79"
+        "outputId": "432944c7-b538-4af2-fa8d-94ec92ccb2c3"
       },
-      "execution_count": 1,
+      "execution_count": 21,
       "outputs": [
         {
           "output_type": "stream",
           "name": "stdout",
           "text": [
             "1000 <class 'int'>\n",
-            "5e-05 <class 'float'>\n"
-          ]
-        },
-        {
-          "output_type": "error",
-          "ename": "NameError",
-          "evalue": "name 'aktif' is not defined",
-          "traceback": [
-            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
-            "\u001b[0;31mNameError\u001b[0m                                 Traceback (most recent call last)",
-            "\u001b[0;32m/tmp/ipykernel_661/131038779.py\u001b[0m in \u001b[0;36m<cell line: 0>\u001b[0;34m()\u001b[0m\n\u001b[1;32m      8\u001b[0m \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mresistor\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mtype\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mresistor\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      9\u001b[0m \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mkapasitor\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mtype\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mkapasitor\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 10\u001b[0;31m \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0maktif\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mtype\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mTersedia\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     11\u001b[0m \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mkomponen\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mtype\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mkomponen\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
-            "\u001b[0;31mNameError\u001b[0m: name 'aktif' is not defined"
+            "5e-05 <class 'float'>\n",
+            "True <class 'bool'>\n",
+            "Resistor <class 'str'>\n"
           ]
         }
       ]
@@ -125,9 +115,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "xVUhS6Q1z9DM",
-        "outputId": "9ab55616-a2e3-45e1-847b-9c178664c7f5"
+        "outputId": "502ae7fd-ed4d-4dcf-94cf-5a2c1ce5534f"
       },
-      "execution_count": 3,
+      "execution_count": 22,
       "outputs": [
         {
           "output_type": "stream",
@@ -163,9 +153,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "LPEtmM4z0ri4",
-        "outputId": "ddd32832-791c-4d65-9717-b83e4cec0ddc"
+        "outputId": "e4bbcd64-4e11-4e9e-b022-1e0c01ef7f0a"
       },
-      "execution_count": 4,
+      "execution_count": 23,
       "outputs": [
         {
           "output_type": "stream",
@@ -198,9 +188,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "7RbiUIKH1U1D",
-        "outputId": "25ca66bc-7ed7-4cee-cc51-b99eac604ad3"
+        "outputId": "225065b9-cfc9-4694-91ee-b14ef8801361"
       },
-      "execution_count": 11,
+      "execution_count": 24,
       "outputs": [
         {
           "output_type": "stream",
@@ -243,9 +233,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "-_e4JIIdWTdg",
-        "outputId": "be628a2f-2479-4d33-c680-7fff23080c5c"
+        "outputId": "98bee815-b76d-4472-cf6f-9d7813406032"
       },
-      "execution_count": 17,
+      "execution_count": 25,
       "outputs": [
         {
           "output_type": "stream",
