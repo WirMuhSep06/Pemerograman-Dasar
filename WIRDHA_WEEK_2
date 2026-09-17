@@ -4,8 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyPMzwCP0ARYJ9wROghfIvQ7",
-      "include_colab_link": true
+      "authorship_tag": "ABX9TyPMzwCP0ARYJ9wROghfIvQ7"
     },
     "kernelspec": {
       "name": "python3",
@@ -17,24 +16,14 @@
   },
   "cells": [
     {
-      "cell_type": "markdown",
-      "metadata": {
-        "id": "view-in-github",
-        "colab_type": "text"
-      },
-      "source": [
-        "<a href=\"https://colab.research.google.com/github/WirMuhSep06/Pemerograman-Dasar/blob/main/WIRDHA_WEEK_2\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
-      ]
-    },
-    {
       "cell_type": "code",
-      "execution_count": 20,
+      "execution_count": 26,
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
         "id": "aYGyJfRKVA2N",
-        "outputId": "058e47db-a11f-473f-8fad-c2f1d4ffa4d5"
+        "outputId": "3d4d95ac-2cf9-4bd6-8817-f31d5ef07951"
       },
       "outputs": [
         {
@@ -79,9 +68,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "5str2kanzKv0",
-        "outputId": "432944c7-b538-4af2-fa8d-94ec92ccb2c3"
+        "outputId": "132aa158-c4c1-4c95-cd78-a748a788e228"
       },
-      "execution_count": 21,
+      "execution_count": 27,
       "outputs": [
         {
           "output_type": "stream",
@@ -115,9 +104,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "xVUhS6Q1z9DM",
-        "outputId": "502ae7fd-ed4d-4dcf-94cf-5a2c1ce5534f"
+        "outputId": "73267ccb-c6ba-4644-fff2-72cca2883929"
       },
-      "execution_count": 22,
+      "execution_count": 28,
       "outputs": [
         {
           "output_type": "stream",
@@ -153,9 +142,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "LPEtmM4z0ri4",
-        "outputId": "e4bbcd64-4e11-4e9e-b022-1e0c01ef7f0a"
+        "outputId": "80c6e432-eefd-40dc-9f2a-ea9579cc13f3"
       },
-      "execution_count": 23,
+      "execution_count": 29,
       "outputs": [
         {
           "output_type": "stream",
@@ -188,9 +177,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "7RbiUIKH1U1D",
-        "outputId": "225065b9-cfc9-4694-91ee-b14ef8801361"
+        "outputId": "9ede189e-f239-4b03-f940-19e2f7b0b6a0"
       },
-      "execution_count": 24,
+      "execution_count": 30,
       "outputs": [
         {
           "output_type": "stream",
@@ -233,9 +222,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "-_e4JIIdWTdg",
-        "outputId": "98bee815-b76d-4472-cf6f-9d7813406032"
+        "outputId": "c236420d-578e-4978-c246-3aac54370743"
       },
-      "execution_count": 25,
+      "execution_count": 31,
       "outputs": [
         {
           "output_type": "stream",
